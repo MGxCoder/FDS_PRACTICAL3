@@ -1,0 +1,73 @@
+
+
+**Step 1**: Initialize two empty lists, `bname` and `cost`, to store book names and their costs.
+
+**Step 2**: Create a loop that keeps running until the user presses Enter twice (i.e., provides an empty input). Inside the loop:
+
+**Step 3**: Read input from the user as a string.
+
+**Step 4**: Check if the input is empty (user pressed Enter twice). If it's empty, exit the loop.
+
+**Step 5**: If the input is not empty, split it into two parts - the book name and its cost (assuming they are separated by a space). Add the book name to the `bname` list and the cost (converted to an integer) to the `cost` list.
+
+**Step 6**: After the user is done entering data, print the collected book names and their costs.
+
+**Step 7**: Define a function called `dup()` to remove duplicate book names and their corresponding costs.
+
+**Step 8**: Inside the `dup()` function:
+
+**Step 9a**: Determine the length of the `data` list, which is equivalent to the length of the `bname` list.
+
+**Step 9b**: Print a message indicating that duplicate names are being removed.
+
+**Step 9c**: Use two nested loops to compare each book name in the `bname` list with all other book names in the list.
+
+**Step 9d**: If a duplicate is found, remove it from both the `bname` and `cost` lists.
+
+**Step 9e**: Update the length of the `bname` list.
+
+**Step 9f**: Print the modified `bname` list and its corresponding costs.
+
+**Step 10**: Define a function called `Sorting()` to sort the books by their costs in ascending order.
+
+**Step 11**: Inside the `Sorting()` function:
+
+**Step 11a**: Determine the length of the `cost` list.
+
+**Step 11b**: Print a message indicating that the list is being sorted.
+
+**Step 11c**: Use two nested loops to compare the cost of each book with all other book costs.
+
+**Step 11d**: Swap the positions of the costs and corresponding book names to sort them in ascending order.
+
+**Step 12**: Print the sorted `bname` and `cost` lists.
+
+**Step 13**: Define a function called `count()` to count and display the books with a cost greater than 500.
+
+**Step 14**: Inside the `count()` function:
+
+**Step 14a**: Create a variable, `count`, to keep track of the number of books with a cost greater than 500.
+
+**Step 14b**: Determine the length of the `cost` list.
+
+**Step 14c**: Print a message indicating that the books with a cost greater than 500 are being displayed.
+
+**Step 14d**: Iterate through the `cost` list, and for each book with a cost greater than 500, increment the `count` and print the book name and cost.
+
+**Step 14e**: Print the total number of books with a cost greater than 500.
+
+**Step 15**: Define a function called `less()` to display the books with a cost less than 500.
+
+**Step 16**: Inside the `less()` function:
+
+**Step 16a**: Create two empty lists, `list` and `list1`, to store book names and their corresponding costs.
+
+**Step 16b**: Print a message indicating that the books with a cost less than 500 are being displayed.
+
+**Step 16c**: Iterate through the `cost` list, and for each book with a cost less than 500, add the book name and cost to the `list` and `list1` lists.
+
+**Step 16d**: Print the book names and their costs from the `list` and `list1` lists.
+
+**Step 17**: Call the `dup()`, `Sorting()`, `count()`, and `less()` functions one after the other to perform their respective tasks in sequence.
+
+**Step 18**: The program provides the user with information about duplicate names, sorted books by cost, books with costs greater than 500, and books with costs less than 500.
