@@ -8,17 +8,17 @@ This Python program helps you manage your book inventory. You can input book nam
 1. **Clone the Repository**:
    - Clone this repository to your local machine:
      ```
-     [git clone https://github.com/MGxCoder/book-inventory.git](https://github.com/MGxCoder/FDS_PRACTICAL3.git)
+     https://github.com/MGxCoder/FDS_PRACTICAL3.git 
      ```
    - Navigate to the project directory:
      ```
-     cd book-inventory
+     cd FDS_PRACTICAL3.
      ```
 
 2. **Run the Program**:
    - Execute the Python script to start the program:
      ```
-     python book_inventory.py
+     python FDS_PRACTICAL3..py
      ```
 
 3. **Input Data**:
